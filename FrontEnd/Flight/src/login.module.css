@@ -1,0 +1,91 @@
+/* Container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #a51818;
+    background-image: url('./images/lgimg.jpg');
+    background-size: cover;
+}
+
+/* Login form styling */
+.loginForm {
+    background-color: #badbf1;
+    opacity: 0.6;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header styling */
+.loginHeader {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2671b7;
+}
+
+/* Input box styling */
+.inputBox {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Error message styling */
+.errorMessage {
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Login button styling */
+.loginButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.loginButton:hover {
+    background-color: #0056b3;
+}
+
+/* Invalid credentials styling */
+.invalid {
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Register link styling */
+.registerText {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.registerText a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.registerText a:hover {
+    text-decoration: underline;
+}

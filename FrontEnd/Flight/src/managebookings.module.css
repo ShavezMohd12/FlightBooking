@@ -1,0 +1,244 @@
+/* .main {
+    background-image: url('E:\New1Flight\Flight\public\manage.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flightcontainer {
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.8);
+    border-radius: 10px;
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.bookingContainer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: #ff4d4d;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.bttn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.bttn2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.bttn:hover {
+    background-color: #0056b3;
+}
+
+.editContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.editContainer input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.editContainer .bttn {
+    background-color: #28a745;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table td {
+    background-color: #e9ecef;
+} */
+.main {
+    background-image: url('./images/manage.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flightcontainer {
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.8);
+    border-radius: 10px;
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bookingContainer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: #ff4d4d;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.bttn, .bttn2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.bttn:hover {
+    background-color: #0056b3;
+}
+
+.editContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.label {
+    color: #94cedc;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.dateInput {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.saveButton {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table td {
+    background-color: #e9ecef;
+}
+
+.editButton {
+    background-color: #17a2b8;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+}
+
+.editButton:hover {
+    background-color: #138496;
+}
+
+.deleteButton {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+    background-color: #c82333;
+}
+.label {
+    color: #000000;
+    font-size: 28px; 
+    font-weight: bold;
+    margin-right: 10px;
+}
